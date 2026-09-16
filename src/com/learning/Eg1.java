@@ -22,9 +22,15 @@ public class Eg1 {
 //        System.out.println(g);
 //        float h=23.0f;
 //        System.out.println(h);
-//        int i=257;
-//        byte j=(byte) (a);
-//        System.out.println(j);
+        int i=257;
+        byte j=(byte) (i);
+        System.out.println(j);
+          int a=265;
+          byte b=(byte) (a);
+          System.out.println(b);
+          int c;
+          c = (int) b;
+          System.out.println(c);
 
 
 
