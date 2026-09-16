@@ -31,6 +31,7 @@ public class Eg1 {
           int c;
           c = (int) b;
           System.out.println(c);
+          System.out.println(b);
 
 
 
