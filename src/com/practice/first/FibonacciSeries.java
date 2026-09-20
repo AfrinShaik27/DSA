@@ -11,9 +11,8 @@ public class FibonacciSeries {
         int n=sc.nextInt();
         int first=0;
         int second=1;
-        for(int i=1;i<n;i++)
+        for(int i=1;i<=n;i++)
         {
-
               System.out.print(first);
               int next=first+second;
               first=second;
