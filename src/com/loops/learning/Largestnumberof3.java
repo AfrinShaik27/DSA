@@ -1,4 +1,4 @@
-package com.loops;
+package com.loops.learning;
 
 import java.util.Scanner;
 
@@ -38,6 +38,6 @@ public class Largestnumberof3
 //        System.out.println(max);
 
         int max=Math.max(c,(Math.max(a,b)));
-        System.out.println("Biggest Number Among 3 Entered number is:"+max);
+        System.out.println("Biggest Number Among    3 Entered number is:"+max);
     }
 }

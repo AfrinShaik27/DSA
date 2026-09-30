@@ -1,4 +1,4 @@
-package com.loops;
+package com.loops.learning;
 
 public class Whileloop {
     static void main() {

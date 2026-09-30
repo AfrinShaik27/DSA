@@ -1,4 +1,4 @@
-package com.loops;
+package com.loops.learning;
 
 import java.util.Scanner;
 

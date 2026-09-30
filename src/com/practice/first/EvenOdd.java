@@ -8,13 +8,15 @@ public class EvenOdd {
        System.out.print("Enter a value:");
        int a =sc.nextInt();
 
-       if(a%2==0)
-       {
-           System.out.println("Enter Number is Even");
-       }
-       else {
-           System.out.println("Enter Number is Odd");
-       }
+//       if(a%2==0)
+//       {
+//           System.out.println("Enter Number is Even");
+//       }
+//       else {
+//           System.out.println("Enter Number is Odd");
+//       }
+       String result=(a%2==0)? "Even":"Odd";
+       System.out.println(result);
        sc.close();
 
     }

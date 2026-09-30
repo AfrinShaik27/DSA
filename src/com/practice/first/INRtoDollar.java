@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class INRtoDollar {
     public static void main() {
         Scanner sc=new Scanner(System.in);
-        System.out.print("How much Rupees you to convert into the Dollars:");
+        System.out.print("Enter How much Rupees you to convert into the Dollars:");
         float rupee=sc.nextFloat();
 
         double dollars=((rupee)*(95.90));

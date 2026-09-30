@@ -1,4 +1,4 @@
-package com.loops;
+package com.loops.learning;
 
 public class Forloop {
     //to print 1 to 5 values

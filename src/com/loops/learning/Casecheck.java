@@ -1,4 +1,4 @@
-package com.loops;
+package com.loops.learning;
 import java.util.Scanner;
 
 public class Casecheck {
@@ -7,11 +7,13 @@ public class Casecheck {
         System.out.print("Enter the character:");
         char ch=in.next().trim().charAt(0);
         if((ch>='a') &&(ch <='z'))
-            System.out.println("Lower Case");
-        else{
-            System.out.println("Upper Case");
+            System.out.print("Lower Case");
+        else if((ch>='A')&&(ch<='Z'))
+        {
+            System.out.println("Upper case");
         }
-
-
+        else{
+            System.out.println("Not an alphabet");
+        }
     }
 }
