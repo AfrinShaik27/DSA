@@ -1,5 +1,4 @@
 package com.loops.assignmentp;
-
 import java.util.Scanner;
 
 //Subtract the Product and Sum of Digits of an Integer

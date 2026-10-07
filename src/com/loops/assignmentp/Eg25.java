@@ -9,9 +9,8 @@ public class Eg25 {
         int n=sc.nextInt();
         int largest=0;
         while (n != 0) {
-            if (n > largest) {
-                largest = n;
-
+            if (n>largest) {
+               largest=n;
             }
             System.out.print("Enter the next n value:");
             n = sc.nextInt();

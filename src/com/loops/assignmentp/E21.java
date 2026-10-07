@@ -1,7 +1,6 @@
 package com.loops.assignmentp;
 
 import java.util.Scanner;
-
 //Fibonacci Series In Java Programs
 public class E21 {
     static void main(String[] args) {
